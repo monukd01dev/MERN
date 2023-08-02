@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="img/book.png">
-    <title>Tables and Spanning</title>
+    <title>colgroup</title>
 
     <style>
-        *{
+        /* *{
             background-color: black;
             color: white;
-        }
+        } */
 
         table,td,tr,th{
             border: 1px solid;
@@ -21,5 +21,152 @@
 </head>
 <body>
     
+
+    <!-- demonstration of column group -->
+
+    <table>
+
+        <colgroup>
+            <col span="3" style="background-color: rgb(190, 246, 79);">
+        </colgroup>
+
+        <tr>
+            <td>col 1</td>
+            <td>col 2</td>
+            <td>col 3</td>
+            <td>col 4</td>
+            <td>col 5</td>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        
+    </table>
+
+    <br><br><br><br>
+
+    <table>
+
+        <colgroup>
+            <col span="" style="background-color: rgb(190, 246, 79);">
+            <col span="3" style="background-color: rgb(255, 255, 43);">
+        </colgroup>
+
+        <tr>
+            <td>col 1</td>
+            <td>col 2</td>
+            <td>col 3</td>
+            <td>col 4</td>
+            <td>col 5</td>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        
+    </table>
+    <br><br><br><br>
+
+    <table>
+
+        <colgroup>
+            <col span="">
+            <col span="" style="background-color: rgb(248, 92, 92);">
+            <col span="">
+            <col span="" style="background-color: rgb(248, 92, 92);">
+        </colgroup>
+
+        <tr>
+            <td>col 1</td>
+            <td>col 2</td>
+            <td>col 3</td>
+            <td>col 4</td>
+            <td>col 5</td>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        
+    </table>
+
+
+
 </body>
 </html>
