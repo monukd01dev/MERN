@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="asset/icon/404-error.ico" type="image/x-icon">
+    <title>User Not Found</title>
+
+    <style>
+    .outer{
+
+      width: 100%;
+      height:50%;
+      display: flex;
+      justify-content: center;
+      
+
+    }
+    img{
+    width : 600px;
+    height: auto;
+     }
+     .buttons{
+      /* border: 1px solid black; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+     }
+     button{
+    
+      width: 150px;
+      height: 50px;
+      margin: 10px 15px;
+      font-size: larger;
+      border-radius: 25px;
+      border: none;
+      background-color: #ee7a65;
+      font-weight: 600;
+      color: white;
+      box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease-out;
+     }
+      .retry:hover{
+            background-color: #57b279;
+            box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.4);
+            transform: translate(0, -5px);
+        }
+        .signup:hover{
+            background-color: #5F6EEF;
+            box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.4);
+            transform: translate(0, -5px);
+        }
+  </style>
+</head>
+<body>
+<div class="outer">
+    <figure>
+        <img src="asset/404_error.png" alt="">
+        <figcaption>
+            <div class="buttons ">
+                <a  href="LogIn.html">
+                    <button class="retry">Retry</button>
+                </a>
+                <a  href="SignUp.html">
+                    <button class="signup">SignUp</button>
+                </a>
+            </div>
+        </figcaption>
+    </figure>
+</div>
+</body>
+</html>
