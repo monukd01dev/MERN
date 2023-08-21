@@ -1,0 +1,17 @@
+.con{
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 3px solid black ;
+    /* Line */
+    /* rotation of angle is clock wise and 0deg is to top */
+    /* default angle is 180deg and to bottom */
+    background-image: linear-gradient(yellow 2%,#1ded58,rgba(0,0,255,0.5));
+}
+
+div.radial{
+    background-image: radial-gradient(circle ,yellow 5%,orange 20%,red);
+    width: 400px;
+    /* opacity: 80%; */
+}

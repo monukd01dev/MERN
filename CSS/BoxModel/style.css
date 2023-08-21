@@ -1,0 +1,13 @@
+
+.container{
+    height: 250px;
+    width: 250px;
+    background: rgb(31, 31, 190);
+    padding: 10px;
+    border:5px solid purple;
+    box-sizing: border-box;
+}
+
+div.content-box{
+    box-sizing: content-box;
+}

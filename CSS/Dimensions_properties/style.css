@@ -1,0 +1,23 @@
+p{
+    padding: 0px;
+    margin: 0px;
+}
+.con{
+    margin: 10px auto;
+    max-height: 600px;
+    min-height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    /* overflow: auto; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: visible; */
+    /* overflow: clip; */
+    /* word-break: break-all; */
+    /* overflow is shorthand property of overflowX and overflowY */
+    overflow-x: scroll;
+    overflow-y:hidden;
+    
+}

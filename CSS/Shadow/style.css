@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+
+.box{
+    margin: 10px auto;
+    width: 250px;
+    height: 250px;
+    background: aqua;
+    box-sizing: border-box;
+    padding: 10px;
+    /* example of double shadow */
+    box-shadow: 5px 6px 2px red, -5px -6px black ;
+    /* filter: drop-shadow(10px 12px green); */
+    
+}
+
+h1{
+    text-shadow: 2px 4px  red;
+}
+h1.text-border{
+    font-size:90px;
+                 /* horizontal vertical blur_in_px colour,another shadow; */
+    text-shadow: 1px 0px black,0px 1px black,-1px 0px black,0px -1px black;
+    color: white;
+}
