@@ -1,0 +1,37 @@
+body{
+    width: 100vw;/* margin: 0px; */
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background: orange;
+    display: inline-block;
+    text-align: center;     
+    line-height: 100px;  
+}
+
+span{
+    font-size: 25px;
+    font-weight: bolder;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+p span{
+    font-size: large;
+    color: red;
+}
+.box1{
+    position: relative;
+    top: 100px;
+}
+.box3{
+    position: relative;
+    top: 50px;
+}
+.box4{
+    position: relative;
+    bottom: 30px;
+}

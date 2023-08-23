@@ -1,0 +1,12 @@
+body{
+    height: 200vh;
+}
+h1{
+    margin: 100px 0px;
+    background-color: red;
+    position: sticky;
+    top: 0px;
+}
+h1{
+    position: static;
+}
