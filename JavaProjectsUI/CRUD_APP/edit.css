@@ -1,0 +1,32 @@
+.search_con{
+    display: inherit;
+    padding: 0;
+    /* border: 1px solid black; */
+    min-width: 300px;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#search_field{
+    outline: none;
+    box-sizing: border-box;
+    padding: 0 18px;
+    margin-right: 5px;
+    width: 70%;
+    height: 6vh;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+.search_submit{
+    width: fit-content;
+    border: 1px solid black;
+    padding: 0 15px;
+    margin: 0;
+    min-width: 20%;
+    height: 6vh;
+    border-radius: 20px;
+
+}
