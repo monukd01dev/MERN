@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,700&family=Radio+Canada&display=swap');
+
+/* This below code will reset the default style provide the browser 
+    -> like margin and default paddings     
+*/
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;/* this is for font */
+}
+
+
+h1{
+    padding: 10px;
+    background: #000;
+    color: white;
+    text-align: center;
+    border-top: 3px solid greenyellow;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: normal;
+    /* margin: 20px; */
+}
+main{
+    margin: auto 30px;
+}
+h2{
+    border-bottom: 1px solid black;
+    margin: 10px auto;
+}
+.box1{
+    height: 10rem;
+    width: 10rem;
+    
+    border: 0.1rem solid black;
+    /* text-align: center; */
+}
+span{
+    text-align: center;/* this will not work cause it has no width */
+}
+
+/* let's see how to make span work by giving it with 
+    but on inline elements width will not work
+    so we will make it inline-block
+*/
+
+span{
+    display: inline-block;
+    /* width: 100%; */
+}
