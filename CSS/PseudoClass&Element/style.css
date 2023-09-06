@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,700&family=Radio+Canada&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    background: black;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    border-top: 2px solid rgb(77, 211, 255);
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h1:hover{
+    color: rgb(77, 211, 255);
+}
+
+main{
+    background: rgb(239, 238, 238);
+    margin: 2rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+h2{
+    text-transform: capitalize;
+    border-bottom: 1px solid black;
+    margin-bottom: 0.8rem;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+   <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='style.css'>
+    <title>not_empty_root</title>
+    <style>
+    
+        body :not(p){/* put space to make it decendent of body */
+            color: purple;
+        }
+        /* body :not(.bla){
+            background: greenyellow;
+        } */
+        /* body{
+            color: black;
+        } */
+
+        div{
+             width: 200px;
+             height: 200px;
+             border: 1px solid black;
+             margin-bottom: 10px;
+        }
+        div:empty{
+            border: 2px solid red;
+            
+        }
+
+        /* root mean root which is html element 
+         */
+         :root{
+            color:white;
+            background: #000;
+         }
+         html{/* specificity of html is less than root */
+            color:white;
+            background-color: red;
+         }
+
+    </style>
+</head>
+<body>
+    <h1>The Wizard</h1>
+    <p class="bla">In world of computers, software engineers are the wizards</p>
+    <p>Random question asking</p>
+
+    <div class="box1"></div>
+    <div class="box2">not empty</div>
+</body>
+</html>
