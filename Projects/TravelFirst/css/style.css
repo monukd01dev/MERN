@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.header{
+    height: 95vh;
+    /* padding-top: 15px; */
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('../imgs/header-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header .navbar{
+    padding: 0 10%;
+    height: 50px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.header .logo,
+.header .navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.header .navbar .logo{
+    float:left;
+    font-weight: 500;
+}
+.header .navbar .nav-items{
+    float: right;
+}
+
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header .navbar .nav-items .nav-item{
+    display: inline-block;
+    margin: auto 10px;
+    /* padding-bottom: 2px; */
+    /* line-height: 100%; */
+    /* vertical-align: center; */
+    /* border: 1px solid red; */
+
+}
+.nav-item:hover{
+    border-bottom: 1px solid white;
+}
+
+/* .navbar{
+    border: 1px solid white;
+} */
+.navbar .logo,
+.navbar .nav-item{
+    line-height: 50px;
+    vertical-align: center;
+}
+
+
