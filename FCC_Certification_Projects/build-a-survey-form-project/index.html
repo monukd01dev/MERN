@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+   <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='styles.css'>
+    
+    <title>build-a-survey-form-project</title>
+</head>
+<body>
+    <h1 id="title">My Survey Form</h1>
+    <p id="description">This is project is required to get the certification</p>
+    <form id='survey-form'>
+      <div class="form-group">
+        <label for="username" id="name-label">Username</label>
+        <input type="text" name="username" id="username" required placeholder="Enter username">
+      </div>
+      <div class="form-group">
+        <label for="email" id="email-label">E-mail</label>
+        <input type="email" name="email" id="email" required placeholder="example@email.com">
+      </div>
+      <div class="form-group">
+        <label for="phone" id="phone-label">Phone</label>
+        <input type="number" name="phone" id="phone" pattern="[0-9]{10,10}" required placeholder="Enter your Phone number">
+      </div>
+      <div class="form-group">
+        <label for="dropdown" id="dropdown-label">Where are you from?</label>
+        <select name="dropdown" id="dropdown">
+            <option value="0">select here</option>
+            <option value="1">Bharat</option>
+            <option value="2">Outside-Bharat</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Current Scenario?</label>
+        <label class="no-margin" for="Working-professional"><input class="inline" type="radio" name="profession" id="Working-professional"> Working Professional</label>
+        <label class="no-margin" for="student"><input class="inline" type="radio" name="profession" id="student"> Student</label>
+      </div>
+      <div class="form-group">
+        <label>Please Select One</label>
+        <label class="no-margin" for="one"><input class="inline" type="checkbox" name="one" id="one"> One</label>
+        <label class="no-margin" for="two"><input class="inline" type="checkbox" name="two" id="two"> Two</label>
+        <label class="no-margin" for="three"><input class="inline" type="checkbox" name="three" id="three"> Three</label>
+      </div>
+      <div class="form-group">
+        <label for="bio">Tell me about yourself...</label>
+        <textarea name="bio" id="bio" cols="30" rows="6"placeholder="I am into coding" required></textarea>
+      </div>
+      <input type="submit" value="Submit">
+      
+    </form>
+</body>
+</html>

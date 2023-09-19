@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400;&family=Radio+Canada&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80");
+    background-attachment: fixed;
+    /* font-size: 18px; */
+}
+
+#title,#description{
+    text-align: center;
+    color: #fff;
+    opacity: 90%;
+}
+
+#description{
+   font-style: italic;
+   font-weight: lighter;
+   margin-top: -0.3em;
+   
+   
+}
+
+#survey-form{
+    z-index: 5;
+    /* border: 1px solid black; */
+    border-radius: 0.3em;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    margin: 2em auto;
+    padding: 1.5em;
+    background-color: rgba(6, 6, 95, 0.9);
+    color: white;
+}
+label{
+    display: block;
+    margin-bottom: 0.4em;
+    font-size: 1.2rem;
+}
+.inline{
+    width: unset;
+    height: unset;
+}
+input,textarea,select{
+    box-sizing: border-box;
+    width: 100%;
+}
+input,select{
+    
+    height: 3em;
+    padding-left: 1em;
+    border-radius: 4px;
+    border-width: 1px;
+    font-size: 0.9rem;
+    
+}
+textarea{
+    padding: 0.5em;
+}
+
+.form-group{
+    margin-bottom: 1em;
+}
+.no-margin{
+    margin: unset;
+    margin-bottom: 0.1em;
+    font-size: 0.9rem;
+}
+
+
+input[type="submit"]{
+    font-size: 1rem;
+    padding: unset;
+    margin-top: 0.4em;
+    background: #27bc3d;
+    color:#ffffff;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+}
