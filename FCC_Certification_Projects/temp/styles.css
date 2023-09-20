@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,700&family=Radio+Canada&display=swap');
+
+/* css reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80");
+    background-attachment: fixed;
+}
+
+#title{
+    margin-top: 1em;
+    font-weight: 500;
+}
+
+#title,#description{
+    text-align: center;
+    color: white;
+    opacity: 80%;
+}
+#description{
+    font-style: italic;
+    opacity: 50%;
+}
+
+#survey-form{
+    margin: 2em auto;
+    padding: 1.5em;
+    border-radius: 8px;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    background-color: rgba(6, 6, 95, 0.9);
+    color: white;
+
+}
+/* labels */
+label{
+    display: block;
+    width: 100%;
+    font-size: 1.9rem;
+    margin-bottom: 0.1em;
+}
+select{
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5em;
+    padding: 0.4em 0.5em;
+}
+
+input[type="checkbox"],input[type="radio"]{
+    margin-left: 1rem;
+}
+input[type="radio"]{
+    margin-right: 0.2em;
+}
+input,textarea{
+    padding: 0.4em 0.5em;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+.inline{
+    display: inline;
+    width: unset;
+    font-size: 1.6rem;
+    margin-bottom: -10px;
+}
+
+input,textarea,select{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+textarea{
+    margin-bottom: 1em;
+}
+
+/* submit */
+#submit{
+    display: block;
+    width: 100%;
+    padding: 0.6em;
+    text-transform: uppercase;
+    font-size: medium;
+    background: #27bc3d;
+    color:#ffffff;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+   <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='styles.css'>
+    
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">FreeCodeCamp Project</h1>
+    <p id="description">Please fill out all the fields of this form all are mandatory</p>
+    <form action="#" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" name="name" id="name" placeholder="Rajesh Kumar" required >
+
+        <label for="email" id="email-label">Email</label>
+        <input type="email" name="email" id="email" placeholder="example@email.com" required>
+
+        <label for="number" id="number-label">Age</label>
+        <input type="number" name="age" id="number" min="13" max="120" placeholder="18" required>
+        <label >Location</label>
+        <select name="country" id="dropdown">
+            <option value="0">Location</option>
+            <option value="1">India</option>
+            <option value="2">Outside India</option>
+        </select>
+        <!-- checkboxes -->
+        <label>Interested In </label>
+
+        <input class="inline" type="checkbox" name="frontend" value="frontend" id="frontend"> 
+        <label class="inline" for="frontend">Front-End</label>
+        <br>
+        <input class="inline" type="checkbox" name="uiux" value="uiux" id="uiux"> 
+        <label class="inline" for="uiux">UI/UX</label>
+        <br>
+        <input class="inline" type="checkbox" name="fullstack" value="fullstack" id="fullstack"> 
+        <label class="inline" for="fullstack">Full-Stack</label>
+        <br>
+        <!-- radio-buttons -->
+        <label>Pay</label>
+        <input class="inline" type="radio" name="pay" id="unpaid" value="unpaid" ><label class="inline" for="unpaid">Unpaid</label>
+        <br>
+        <input class="inline" type="radio" name="pay" id="paid" value="paid" ><label class="inline" for="paid">Paid</label>
+        <br>
+        <!-- text-area -->
+        <label>Bio</label>
+        <textarea name="bio" id="bio" cols="30" rows="5" placeholder="Tell me about yourself"></textarea>
+
+        <!-- submit button -->
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>
