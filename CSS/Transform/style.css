@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header stylling */
+header{
+    padding: 1em 0;
+    background-color: black;
+    color:white;
+    border-bottom: 3px solid rgb(0, 179, 255);
+    text-align: center;
+    text-transform: uppercase;
+
+}
+/* main */
+main{
+    padding: 1em;
+}
+/* box */
+.box{
+    width: 300px;
+    height: 300px;
+    color: white;
+    background-color: blueviolet;
+    font-size: 2rem;
+    /* centering the content */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* anoter centering technique -- for single child element*/
+    /* /*line-height: 300px;  */
+    /* % will not work here  */
+    /* text-align: center;
+    vertical-align: center; */
+}
+
+.transform{
+    position: relative;
+    /* clock-wise */
+    /* transform: rotate(90deg); */
+    /* transform: rotate(0.25turn); */
+    /* transform: rotate(45deg); */
+    /* transform-origin: 0 0; */
+    /* scale: 0.6; */
+    translate: 100% ;
+    transform: skew(20px,30px);
+    display: none;
+}
+
+.box::after{
+    content: "After";
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    translate:-50% ;
+}
+
+.logo-container{
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 0 px 0px black;
+    margin: auto;
+    min-width: 300px;
+    max-width:500px;
+    height: 400px;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    width: 50px;
+    height: 300px;
+    position: absolute;
+}
+.block1,.block2 {
+    background: #a4050d;
+}
+.block2{
+    transform: translate(122px);
+} 
+.block3 {
+    background: #e50914;
+    transform: skewX(22deg) translateX(61px);
+    box-shadow: 0 0 5px 0px black;  
+} 
+.center{ 
+    translate: -120%;
+}
+
+
+
+
+
