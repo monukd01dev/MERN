@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container,.box{
+    border: 1px solid black;
+}
+.container{
+    height: 25rem;
+
+}
+.box{
+    width: 4rem;
+    height: 4rem;
+}
+
+.box:nth-child(odd){
+    background-color: rgba(0, 255, 255, 0.37);
+}
+
+.box:nth-child(even){
+    background-color: gold;
+}
+
+.container{
+    display: flex;
+    /* horizontal axis */
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: baseline;/* see it later */
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    /* giving box some with now */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* centering over cross-axis */
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    /* line-spacing */
+    align-content:center;
+    /* gap */
+    gap: 1rem;
+
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+header{
+ padding: 0.8rem;   
+ /* border: 1px solid red; */
+ 
+}
+
+header,nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    row-gap: 0.5rem;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+nav{
+    /* border: 1px solid green; */
+    width: 450px;
+    justify-content: space-evenly;
+    gap:20px;
+    
+}
+button{
+    padding: 0.7em 1.5em ;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background-color: #E11299;
+    transition: 0.5s ease;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border:none;
+}
+
+nav > button:hover{
+    flex-grow: 1;
+
+}
+header{
+    position:fixed;
+    width: 100%;
+    color:white;
+    background: rgba( 255, 255, 255, 0.1 );
+    backdrop-filter: blur( 11.5px );
+    top: 0;
+}
+
+.cover{
+    background: url("https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80");
+
+    top: -68px;
+    height: 110vh;
+    width: 100%;
+    
+}
