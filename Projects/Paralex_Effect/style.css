@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* here's my code */
+
+#wrapper{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+    /* border: 1px solid red; */
+}
+
+.container{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.background{
+    transform: translateZ(-40px) scale(6);
+}
+.foreground{
+    transform: translateZ(-20px) scale(4);
+}
+
+.background , .foreground{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+.foreground{
+    bottom: 250px;
+}
+h1{
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 150px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0px 0px 20px  #494848;
+    
+}
+
+
+
