@@ -1,0 +1,92 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+body {
+  background-color: #ccdbfd;
+}
+
+/* nav */
+nav {
+  .nav-con {
+    background-color: black;
+    display: flex;
+    color: #fff;
+    height: 57px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid yellow;
+    margin-bottom: 30px;
+  }
+}
+
+main {
+  .parent {
+    display: grid;
+    margin: auto;
+    max-width: 400px;
+    width: 90%;
+    border: 10px solid #ccdbfd;
+    border-radius: 15px;
+    padding: 20px;
+
+    /* grid-properties */
+    gap: 15px;
+
+    .child {
+      border: inherit;
+      padding: 10px 20px;
+      border-radius: 25px;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.neu-all {
+  background-color: #ccdbfd;
+  border-color: #ccdbfd;
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.2), 4px 4px 8px rgba(0, 0, 0, 0.1),
+    -4px -4px 8px rgba(255, 255, 255, 0.1);
+    
+}
+.neu-out {
+  background-color: #ccdbfd;
+  border-color: #ccdbfd;
+  box-shadow: 
+     4px 4px 8px rgba(0, 0, 0, 0.1),
+    -4px -4px 8px rgba(255, 255, 255, 0.3);
+
+}
+
+.neu-in{
+    border-color: #ccdbfd;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2),
+      inset -4px -4px 8px rgba(255, 255, 255, 0.2), 4px 4px 8px rgba(0, 0, 0, 0.1),
+      -4px -4px 8px rgba(255, 255, 255, 0.1);
+  
+}
+.child:hover {
+  
+  border-color: #ccdbfd;
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.2), 4px 4px 8px rgba(0, 0, 0, 0.1),
+    -4px -4px 8px rgba(255, 255, 255, 0.1);
+
+}
+
+.selected{
+  border-color: #ccdbfd;
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.2), 4px 4px 8px rgba(0, 0, 0, 0.1),
+    -4px -4px 8px rgba(255, 255, 255, 0.1);
+}
+
+
