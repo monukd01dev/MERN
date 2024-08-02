@@ -23,10 +23,10 @@ for(content of parent.children)
 
 // child traversel
 // property--> firstChild (textNode) -> firstElementChild (ElementNode)
-// parent.firstElementChild.style.backgroundColor = "#abc4ff"
+parent.firstElementChild.style.backgroundColor = "#abc4ff"
 
 // lastElementChild
-// parent.lastElementChild.style.backgroundColor = "#ff85a1"
+parent.lastElementChild.style.backgroundColor = "#ff85a1"
 
 // nextElementSibling and previousElementSibling
 

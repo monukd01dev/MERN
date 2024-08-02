@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-1</title>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!--adding the script -->
+    <!-- <script src="./using.js" ></script> -->
+    <!-- <script src="./using.js" defer></script> -->
+    <!-- <script src="./using_react.js" defer></script> -->
+    <script src="./nestedElementsReactCore.js" defer></script>
+    <!-- <script src="./using.js" async></script> -->
+    <!-- why defer -->
+    <!-- problem with the srcript approach -->
+     <!-- as soon as script tag is parsed by the browser it will stop the html parsing and start loading and executing the js code and then resume the html parsing -->
+    <!-- problem with ths async approach -->
+     <!-- So the async approach say the we parse the HTML and load the js parallely but as soon as the js code is loaded we stop the html parsing and start executing the js code and when it is finished we resume the html parsing -->
+    <!-- so by the above problems we know that we want to parse the html and load the js parallely but we want to execute the js after the html parsing is completed -->
+    <style>
+
+        #parent,.child,.siblings,.sib-child{
+            outline: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- and adding the script tag at the very end in the body is not the good way cause js will start loading after the html is fully parsed but with defer it's happen parallely -->
+    
+</body>
+</html>
