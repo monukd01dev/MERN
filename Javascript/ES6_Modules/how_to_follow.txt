@@ -1,0 +1,16 @@
+what coverd here?
+- what is modules
+- import and export
+- types of export
+    - named export
+    - default export
+- alias (as)
+- namespaces
+- combined export
+    - yaha bas ek he cheez yaad rakhni hai ke combine.js jo hai vo export karega from ke use karke 
+    - aisa nhi hoga ke vo paihle import karega vo directly export kar dega from laga ke 
+- all the above import is static
+
+- dynamic import
+- multiple dynamic import 
+- promise consuption nothing else (looks scary but not eventually when you start coding)
