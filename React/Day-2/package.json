@@ -1,0 +1,31 @@
+{
+  "name": "day-2",
+  "version": "1.0.0",
+  "description": "knowing the npm and parcel and versioning",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monukd01dev/MERN.git#master"
+  },
+  "keywords": [],
+  "author": "@monukd01dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monukd01dev/MERN/issues"
+  },
+  "homepage": "https://github.com/monukd01dev/MERN/tree/master#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist" : [
+    "last 10 versions"
+  ]
+}
