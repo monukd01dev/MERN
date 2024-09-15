@@ -14,3 +14,5 @@ what coverd here?
 - dynamic import
 - multiple dynamic import 
 - promise consuption nothing else (looks scary but not eventually when you start coding)
+
+working on import//
