@@ -1,3 +1,0 @@
-const product = {
-    name : "phone",
-}
